@@ -11,6 +11,7 @@ import About from './components/pages/About';
 import Service from './components/pages/Service';
 import Portfolio from './components/pages/Portfolio';
 import Team from './components/pages/Team';
+import Contact from './components/pages/Contact';
 
 function App() {
   return (
@@ -36,7 +37,9 @@ function App() {
         <Service />
         <About/>
         <Portfolio/>
-     <Team/>
+        <Team/>
+        <Contact/>
+     
       </PageWrapper>
     </Router>
   
